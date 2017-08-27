@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:4
+-keep class com.VizegrafIndie.Tuturu.TuturuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:10
+-keep class org.ruboto.RubotoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class org.ruboto.RubotoDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class org.ruboto.RubotoService { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class org.ruboto.SplashActivity { <init>(...); }
+
