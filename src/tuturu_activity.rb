@@ -45,13 +45,15 @@ class TuturuActivity
       @mediaPlayer.stop
       @mediaPlayer.release
     end
-    unless @title.nil?
-      @title.clearAnimation()
-    end
+
+    @title.clearAnimation()
+    @nbTuturuTxt.clearAnimation()
+
     if sound=='tuturulonger'
       @imgBtAnim = AnimationUtils.loadAnimation(self, R.animator.shakelonger)
       @rotate = AnimationUtils.loadAnimation(self, R.animator.rotate)
       @title.startAnimation(@rotate)
+      @nbTuturuTxt.startAnimation(@rotate)
     else
       @imgBtAnim = AnimationUtils.loadAnimation(self, R.animator.shake)
     end
